@@ -21,11 +21,11 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if array.include?("cheddar")
-    p "cheddar" 
+    return "cheddar" 
     elsif array.include?("gouda")
-    p "gouda"
+    return  "gouda"
   elsif array.include?("camembert")
-    p "camembert"
+    return  "camembert"
 else nil 
 end 
 end
